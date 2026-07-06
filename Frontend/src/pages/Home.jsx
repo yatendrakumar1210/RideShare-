@@ -1,14 +1,20 @@
-import React from 'react'
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
+import React from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import ContentPage from "./ContentPage";
 
 const Home = () => {
   return (
     <div>
-          <Navbar/>
-          <Footer/>
+      <Navbar />
+
+      <div className="mb-20">
+        <ContentPage />
+      </div>
+
+      <Footer />
     </div>
   );
-}
+};
 
-export default Home
+export default Home;
