@@ -5,13 +5,11 @@ import ContentPage from "./ContentPage";
 
 const Home = () => {
   return (
-    <div>
-      <Navbar />
-
-      <div className="mb-20">
+    <div className="min-h-screen flex flex-col justify-between">
+      <div>
+        <Navbar />
         <ContentPage />
       </div>
-
       <Footer />
     </div>
   );
